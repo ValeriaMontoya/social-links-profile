@@ -105,17 +105,19 @@ img {
   }
 }
 
-/* @media (min-width: 992px) {
+@media (min-width: 992px) {
   body {
-    padding: 174px 528px;
+    padding: 174px 0;
   }
 
   main {
     width: 100%;
+    min-width: 327px;
     max-width: 384px;
   }
 
-  .bio {
-    text-align: left;
+  .links a:hover {
+    color: var(--color-neutral-grey);
+    background-color: var(--color-primary-green);
   }
-} */
+}
