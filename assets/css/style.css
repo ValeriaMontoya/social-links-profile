@@ -114,6 +114,7 @@ img {
     width: 100%;
     min-width: 327px;
     max-width: 384px;
+    padding: 40px;
   }
 
   .links a:hover,
