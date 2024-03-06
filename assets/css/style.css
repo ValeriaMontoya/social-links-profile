@@ -96,3 +96,26 @@ img {
   padding: 12px;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  main {
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+/* @media (min-width: 992px) {
+  body {
+    padding: 174px 528px;
+  }
+
+  main {
+    width: 100%;
+    max-width: 384px;
+  }
+
+  .bio {
+    text-align: left;
+  }
+} */
